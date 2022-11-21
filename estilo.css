@@ -10,6 +10,10 @@
     gap: 2vw;
     padding: 2vw;
 }
+.fotos{
+    width: 340px;
+    height: 340px;
+}
 .fotos img{
     width: 100%;
     height: 100%;
@@ -21,13 +25,8 @@
     cursor: url(img/cursorcat2.cur), default;
 
 }
-.fotos{
-    width: 340px;
-    height: 340px;
-}
 .fotos:hover{
     transform: scale(1.1);
-
 }
 header{
     background-color: rgb(36, 71, 70);
@@ -65,7 +64,6 @@ h2{
     padding-top: 40px;
 }
 footer{
-    
     text-align: center;
     padding-right: 10px;
     background-color: aquamarine;

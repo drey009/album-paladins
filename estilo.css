@@ -32,21 +32,6 @@
 header{
     background-color: rgb(36, 71, 70);
 }
-body{
-    cursor: url(img/cursorcat.cur), default;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    background-color: rgb(43, 82, 80);
-    background-repeat: no-repeat;
-    background-size: contain 100%; 
-    background-attachment: fixed;
-}
-img{
-    justify-content: center;
-    width: 500px;
-    height: 260px;
-}
-
 h1{ 
     display: block;
     position: fixed;
@@ -57,8 +42,21 @@ h1{
     text-transform: uppercase;
     font-size: 20px;
 }
+img{
+    width: 500px;
+    height: 260px;
+}
 hr{
     color: white;
+}
+body{
+    cursor: url(img/cursorcat.cur), default;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: rgb(43, 82, 80);
+    background-repeat: no-repeat;
+    background-size: contain 100%; 
+    background-attachment: fixed;
 }
 h2{
     color: rgb(154, 236, 247);
